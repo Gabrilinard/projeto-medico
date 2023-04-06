@@ -130,6 +130,16 @@ picture > img#medicos6 {
     height: 295px;
 }
 
+picture > figure > figcaption > p {
+    margin: auto;
+    color: rgb(76, 71, 71);
+    text-align: center;
+}
+
+picture > figure > figcaption > p > a {
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
     background-image: linear-gradient(to right, rgb(76, 186, 223), rgb(50, 212, 150));

@@ -66,6 +66,10 @@
         width: 390px;
         height: 340px;
     }
+
+    picture > figure > figcaption > p {
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -149,6 +153,10 @@
         padding: 20px;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.226);
         width: 840px;
+        margin: auto;
+    }
+
+    picture > figure > figcaption > p {
         margin: auto;
     }
 }
