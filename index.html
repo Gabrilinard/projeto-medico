@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Medicine Life</h1>
         <p>O melhor médico é aquele que mais esperança inspira.</p>
@@ -41,7 +41,7 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam similique culpa quis voluptatibus, dolores voluptates quisquam labore expedita alias libero. Ullam praesentium, mollitia totam voluptatum nisi laborum ipsam beatae possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est, non repudiandae voluptatibus dicta repellat eligendi obcaecati odio aspernatur beatae expedita aliquid inventore, reiciendis pariatur officiis nesciunt nemo, quis earum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident saepe recusandae nihil odio animi! Porro ipsum sed dolor id, voluptates possimus praesentium cupiditate veritatis repellendus ipsa maiores natus et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quos alias possimus commodi voluptas nemo in recusandae est, rem voluptatibus vel libero, consequatur obcaecati quam saepe fugiat corrupti? Deserunt, mollitia.</p>
 
-            <aside>
+    
                 <h2>O que irá encontrar nas nossas pesquisas e entrevistas?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam similique culpa quis voluptatibus, dolores voluptates quisquam labore expedita alias libero. Ullam praesentium, mollitia totam voluptatum nisi laborum ipsam beatae possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus est, non repudiandae voluptatibus dicta repellat eligendi obcaecati odio aspernatur beatae expedita aliquid inventore, reiciendis pariatur officiis nesciunt nemo, quis earum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. A provident saepe recusandae nihil odio animi! Porro ipsum sed dolor id, voluptates possimus praesentium cupiditate veritatis repellendus ipsa maiores natus et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quos alias possimus commodi voluptas nemo in recusandae est, rem voluptatibus vel libero, consequatur obcaecati quam saepe fugiat corrupti? Deserunt, mollitia.</p>
 
@@ -60,7 +60,6 @@
 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, inventore! Ipsa repudiandae consectetur temporibus, veritatis animi dolores doloribus unde nulla nihil autem laborum vitae, sint corrupti harum! Itaque, ea sit.
                 </p>
-            </aside>
         </article>
     </main>
     <footer>
@@ -74,6 +73,14 @@
             } else {
                 itens.style.display = "block"
             }
+        }
+
+        function mudouTamanho(){
+        if (window.innerWidth >=768) {
+            itens.style.display ="block"
+        } else {
+            itens.style.display ="none"
+        }
         }
     </script>
 </body>

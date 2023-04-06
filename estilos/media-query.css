@@ -1,1 +1,152 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgba(76, 201, 223, 0.164);
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    ul > li {
+        display: inline-block;
+        font-size: 1.3em;
+    }
+
+    article > p {
+        text-align: justify;
+        text-indent: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        line-height: 1.6;
+        width: 690px;
+        margin: auto;
+    }
+
+    picture > img#medicine3 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 370px;
+        height: 320px;
+    }
+    
+    picture > img#medicine2 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 370px;
+        height: 320px;
+    }
+    
+    picture > img#medicine4 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 370px;
+        height: 320px;
+    }
+    
+    picture > img#medicos6 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 370px;
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgba(76, 201, 223, 0.164);
+    }
+
+    menu {
+        display: block;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    ul > li {
+        display: inline-block;
+        font-size: 1.5em;
+    }
+
+    header > menu > ul > li > a:hover {
+        background-color: rgb(21, 107, 103);
+        transition: 0.2;
+        text-decoration: none;
+    }
+
+    article > p {
+        text-align: justify;
+        text-indent: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        line-height: 1.7;
+        width: 690px;
+        margin: auto;
+    }
+
+    picture > img#medicine3 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 700px;
+        height: 250px;
+    }
+    
+    picture > img#medicine2 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 700px;
+        height: 250px;
+    }
+    
+    picture > img#medicine4 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 700px;
+        height: 250px;
+    }
+    
+    picture > img#medicos6 {
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 700px;
+        height: 250px;
+    }
+
+    h2 {
+        text-align: center;
+        font-family:'Shrikhand', cursive;
+        color: rgb(30, 160, 121);
+        padding: 20px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.226);
+        width: 840px;
+        margin: auto;
+    }
+}
