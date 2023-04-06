@@ -78,7 +78,7 @@ main  > h1 {
     padding: 10px;
     font-family: 'Shrikhand', cursive;
     color: rgb(30, 160, 121);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.226);
 }
 
 article > p {
@@ -94,7 +94,7 @@ article > p {
     font-family:'Shrikhand', cursive;
     color: rgb(30, 160, 121);
     padding: 20px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.226);
+    text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.13);
 }
 
 picture > img#medicine3 {
