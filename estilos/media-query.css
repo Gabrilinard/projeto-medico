@@ -69,6 +69,8 @@
 
     picture > figure > figcaption > p {
         margin: auto;
+        text-align: center;
+        font-size: 0.8em;
     }
 }
 
@@ -158,5 +160,7 @@
 
     picture > figure > figcaption > p {
         margin: auto;
+        text-align: center;
+        font-size: 0.9em;
     }
 }

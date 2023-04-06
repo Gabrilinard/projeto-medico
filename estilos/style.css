@@ -134,6 +134,7 @@ picture > figure > figcaption > p {
     margin: auto;
     color: rgb(76, 71, 71);
     text-align: center;
+    font-size: 0.7em;
 }
 
 picture > figure > figcaption > p > a {
