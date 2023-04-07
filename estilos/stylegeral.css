@@ -4,13 +4,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
+/* rgb(227, 255, 249); */
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+header {
+    background-image: linear-gradient(to bottom, rgb(50, 212, 150), rgb(76, 186, 223));
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family:'Pacifico', cursive;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+}
+
 body, html {
-    background-image: linear-gradient(to bottom right, rgb(32, 236, 100), rgb(26, 247, 210), rgb(255, 255, 255));
+    background-image: linear-gradient(to right, rgb(227, 255, 249), rgb(222, 255, 235));
 }
 
 h1 {
@@ -25,7 +40,7 @@ h1 {
 h2 {
     text-align: left;
     font-family:'Shrikhand', cursive;
-    color: white;
+    color: rgb(30, 160, 121);
     padding: 20px;
     font-size: 1.8em;
     text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.13);
